@@ -1,0 +1,89 @@
+body, h1, h2, h3, p, table, th, td, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+header {
+    background-color: rgb(0, 179, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+.received_tables {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vh;
+    background-color: rgb(56, 56, 56);
+    border-radius: 15px;
+    padding-bottom: 3vh;
+    box-shadow: 0 0 30px 0px rgb(0, 0, 0);
+}
+.received_tables h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 3vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.received_tables_info {
+    width: 94%;
+    margin-left: 3%;
+    background-color: rgb(56, 56, 56);
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.received_tables_info th, .received_tables_info td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.received_tables_info th {
+    background-color: rgb(11, 219, 0);
+    color: white;
+}
+.received_tables_info_column {
+    width: 94%;
+    padding: 3%;
+}
+button {
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(255, 123, 123);
+}
+@media only screen and (max-width: 768px) {
+    .received_tables {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .received_tables h2 {
+        font-size: 36px;
+    }
+
+    .received_tables_info {
+        width: 98%;
+        margin-left: 1%;
+    }
+
+    .received_tables_info th, .received_tables_info td {
+        padding: 10px;
+    }
+
+    button {
+        width: 80px;
+        padding: 6px 10px;
+    }
+}

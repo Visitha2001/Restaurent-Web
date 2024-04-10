@@ -1,0 +1,79 @@
+body{
+    background-image: url('../CUS_IMAGES/Background/3907559_2005160.jpg');
+    background-size:fill;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+.box_view_1{
+    width: 60%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 30px 0px rgb(19, 19, 19);
+}
+.box_view_2{
+    width: 60%;
+    height: auto;
+    margin-top: 2vh;
+    margin-left: 20%;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 30px 0px rgb(19, 19, 19);
+}
+h1{
+    padding: 5vh;
+    text-align: center;
+    color: aliceblue;
+}
+.have{
+    margin-left: 10%;
+    color: aliceblue;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.terms{
+    margin-top: 1vh;
+    margin-left: 10%;
+    color: aliceblue;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    color: aliceblue;
+}
+button{
+    width: 15%;
+    height: auto;
+    padding: 1.5vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 42.5%;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+}
+button:hover{
+    background-color: rgb(255, 211, 129);
+}
+input[type=text],
+input[type=password] {
+    width: 80%;
+    padding: 20px;
+    margin-left: 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: aliceblue;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgb(56, 56, 56);
+}
+label{
+    display: block;
+    color: aliceblue;
+    padding: 1vh;
+    margin-left: 10%;
+}

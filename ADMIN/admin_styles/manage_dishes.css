@@ -1,0 +1,95 @@
+input[type=text],
+input[type=password],
+input[type=file]{
+    width: 80%;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    border: 1px solid rgb(211, 211, 211);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(0, 86, 162);
+}
+label{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1vh;
+    margin-left: 10%;
+}
+.add_dish{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    background-color: rgb(0, 53, 100);
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+}
+.managedishes{
+    text-align: center;
+    padding: 5vh;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+button{
+    width: 15%;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    border-radius: 15px;
+    padding: 2vh;
+    background-color: rgb(0, 187, 255);
+}
+.remove_btn{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    padding: 1vh;
+    background-color: rgb(0, 187, 255);
+}
+.remove_btn:hover,
+button:hover{
+    background-color: rgb(146, 226, 255);
+}
+.dish_container {
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(0, 15, 50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.remove_dish {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px; 
+    margin: 10px;
+}
+.remove_dish_box{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.remove_dish_h2{
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.remove_dish_h3{
+    text-align: center;
+    padding: 5vh;
+}
+.dis_img_row{
+    width: 450px;
+    height: 250px;
+    margin-top: 2vh;
+    border-radius: 15px;
+}

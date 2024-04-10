@@ -1,0 +1,79 @@
+.row_01{
+    width: 94%;
+    margin-left: 3%;
+    display: flex;
+}
+.manage_staff_row_1{
+    width: 45%;
+    margin-top: 3vh;
+    background-color: rgb(0, 53, 100);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+input[type=text],
+input[type=password],
+input[type=file],
+input[type=email]{
+    width: 80%;
+    padding: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: inline-block;
+    border: 1px solid rgb(211, 211, 211);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(0, 86, 162);
+}
+label{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1vh;
+    margin-left: 8%;
+}
+.man_sta_title{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: center;
+    padding: 3vh;
+}
+.add_staff_btn{
+    width: 15%;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    border-radius: 15px;
+    padding: 2vh;
+    background-color: rgb(0, 187, 255);
+}
+.add_staff_btn:hover{
+    background-color: rgb(146, 226, 255);
+}
+.staff_table{
+    width: 55%;
+    margin-left: 3%;
+    margin-top: 3vh;
+    height: auto;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 3vh;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(1, 0, 24);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}

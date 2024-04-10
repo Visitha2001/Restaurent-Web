@@ -1,0 +1,124 @@
+.table_booking {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: auto;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 59, 59);
+    overflow: hidden;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.table_booking h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    padding: 2vh;
+}
+.table_booking h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    padding: 2vh;
+}
+
+select,
+input[type=text],
+input[type=time] {
+    width: 80%;
+    padding: 20px;
+    margin-left: 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: aliceblue;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgb(56, 56, 56);
+    margin-top: 1vh;
+}
+option{
+    width: auto;
+    height: auto;
+    padding: 2%;
+}
+option:hover{
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+}
+label {
+    display: block;
+    color: aliceblue;
+    padding: 1vh;
+    margin-left: 10%;
+}
+button {
+    width: 15%;
+    height: auto;
+    padding: 1.5vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 42.5%;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(255, 211, 129);
+}
+.booked_tables {
+    margin-top: 20px;
+}
+
+.booked_tables_info {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 5vh;
+}
+
+.booked_tables_info th,
+.booked_tables_info td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+}
+
+.booked_tables_info th {
+    background-color: rgba(22, 220, 0, 0.857);
+    color: rgb(0, 0, 0);
+}
+
+.booked_tables_info tr:hover {
+    background-color: rgb(255, 200, 0);
+    color: rgb(0, 0, 0);
+}
+@media (max-width: 767px) {
+    .table_booking {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .table_booking h2 {
+        font-size: 30px;
+    }
+
+    select,
+    input[type=text],
+    input[type=time] {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button {
+        width: 80%;
+        margin-left: 10%;
+    }
+}

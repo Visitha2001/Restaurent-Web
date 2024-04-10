@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    max-width: 100%;
+}
+body{
+    background-color: rgb(1, 0, 24);
+}
+.row-1{
+    margin-top: 0;
+    background-color: rgb(1, 0, 24);
+    width: 100%;
+    height: auto;
+}
+.res_name{
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    padding: 2vh;
+}
+.nav_bar_list{
+    margin: 0;
+    padding: 2px;
+    width: 94%;
+    margin-left: 3%;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(0, 136, 255);
+    border-radius: 10px;
+}
+.tabs{
+    float: left;
+}
+.tabs a{
+    display: block;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.tabs a:hover{
+    background-color: rgb(121, 167, 253);
+    color: rgb(0, 0, 0);
+}

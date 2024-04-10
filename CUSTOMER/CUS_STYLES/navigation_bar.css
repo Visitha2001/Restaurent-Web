@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(38, 38, 38);
+}
+
+.row-1 {
+    margin-top: 0;
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+.logo_con {
+    margin-left: 40%;
+    margin-top: 2.5vh;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.res_name {
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    padding: 2vh;
+}
+
+.nav_bar_list {
+    margin: 0;
+    padding: 2px;
+    width: 94%;
+    margin-left: 3%;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.tabs {
+    float: left;
+}
+
+.tabs a {
+    display: block;
+    height: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.tabs a:hover {
+    background-color: rgb(255, 234, 165);
+}
+
+@media only screen and (max-width: 600px) {
+    .logo_con {
+        margin-left: 5%;
+    }
+
+    .res_name {
+        font-size: 20px;
+    }
+
+    .nav_bar_list {
+        display: none;
+    }
+
+    .tabs {
+        float: none;
+        width: 100%;
+    }
+
+    .tabs a {
+        text-align: left;
+    }
+
+    .tabs a:not(:first-child) {
+        display: none;
+    }
+
+    .tabs a.icon {
+        float: right;
+        display: block;
+    }
+}

@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.row-2{
+    width: 94%;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 3%;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    display: flex;
+}
+.welcome_note{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.welcome_msg{
+    color: aliceblue;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 75px;
+    color: rgb(255, 187, 0);
+}
+.welcome_video{
+    float: right;
+    margin: 0;
+    width: 800px;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+}
+video{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.row-3{
+    width: 94%;
+    margin-left: 3%;
+    height: 350px;
+    margin-top: 3vh;
+    background-color: none;
+    border-radius: 10px;
+    display: flex;
+}
+/*images*/
+.home_page_row1,
+.home_page_row2,
+.home_page_row3,
+.home_page_row4{
+    margin: 0;
+}
+.home_page_img01,
+.home_page_img02,
+.home_page_img03,
+.home_page_img04{
+    flex: auto;
+    width: 100%;
+    height: 325px;
+    border-radius: 15px;
+    overflow: hidden;
+    float: left;
+}
+.food_img {
+    width: 100%;
+    height: 325px;
+    border-radius: 15px;
+    opacity: 1;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 0;
+    display: block;
+}
+.food_img:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.chef_img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    opacity: 1;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 0;
+}
+.contact{
+    margin-top: 5vh;
+    width: 20%;
+    height: 30vh;
+    padding: 5vh;
+    position: relative;
+    margin-left: 5%;
+}
+.directions{
+    margin-top: 5vh;
+    width: 10%;
+    height: 30vh;
+    padding: 5vh;
+    position: relative;
+    color: aliceblue;
+}
+.last_row{
+    color: rgb(255, 187, 0);
+}
+.last{
+    float: left;
+    display: inline;
+    width: 100%;
+    margin-left: 10%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+.last a{
+    font-size: larger;
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
+.last a:hover{
+    margin-left: 2vh;
+    transition: transform 0.3s ease-in-out;
+}
+.contact_us{
+    font-size: larger;
+    margin-left: 10%;
+    color: rgb(255, 187, 0);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.con_hr1{
+    width: 15%;
+    margin-left: 10%;
+}
+.con_hr2{
+    width: 50%;
+    margin-left: 10%;
+}
+.r2_hr{
+    width: 40%;
+    height: 0.30vh;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    border-radius: 2px;
+}
+.row-4{
+    width: 94%;
+    margin-top: 3vh;
+    margin-left: 3%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+}
+.about_us_note{
+    float: right;
+    margin-left: 5%;
+}
+.about{
+    padding: 5vh;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.about:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+/*chefs*/
+h2{
+    margin-top: 2vh;
+    color: rgb(255, 187, 0);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+#chefs{
+    width: 94%;
+    margin-left: 3%;
+}
+.chef_info{
+    margin-top: 1vh;
+    color: rgb(255, 187, 0);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+#post{
+    display: flex;
+    margin-top: 3vh;
+    width: 80%;
+    margin-left: 10%;
+}
+#post01,#post02,#post03{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    border-radius:15px;
+    padding: 25px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.993);
+}
+#post01:hover,
+#post02:hover,
+#post03:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 0px rgba(166, 86, 0, 0.993);
+}
+/*delivey row*/
+.deliver_info{
+    width: 94%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 3%;
+    background-color: rgb(255, 214, 132);
+    border-radius: 15px;
+    display: flex;
+}
+.deliver_phone{
+    width: 100%;
+    height: auto;
+    padding: 8vh;
+    color: black;
+    border-radius: 15px;
+}
+.deliver_img{
+    width: 85%;
+    height: auto;
+    padding: 5vh;
+    border-radius: 15px;
+}
+.deliver_txt{
+    width: 100%;
+    height: auto;
+    padding: 5vh;
+    color: black;
+    border-radius: 15px;
+}
+.deliver_phone_01{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 0;
+}
+.deliver_phone_01:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    font-weight: 900;
+}
+.deliver_txt_01{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.deliver_img_01{    
+    width: 100%;
+    height: auto;
+}
+/*follow*/
+.footer_row{
+    display: flex;
+    margin-top: 5vh;
+    background-color: rgb(56, 56, 56);
+}
+.social-media-icons {
+    width: 30%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 20vh;
+    margin-left: 25%;
+}
+.social-media-icons p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.social-icon1,
+.social-icon2,
+.social-icon3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.social-icon1 img,
+.social-icon2 img, 
+.social-icon3 img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.social-icon1:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 10px rgba(0, 119, 255, 0.993);
+}
+.social-icon2:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.993);
+}
+.social-icon3:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 10px rgba(255, 0, 238, 0.993);
+}
+.mobile-nav-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(65, 65, 65);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        border-radius: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome_video,
+    .food_img,
+    .chef_img,
+    .home_page_img01,
+    .home_page_img02,
+    .home_page_img03,
+    .home_page_img04 {
+        width: 100%;
+        height: auto;
+    }
+}
